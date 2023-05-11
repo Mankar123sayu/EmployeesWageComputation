@@ -5,7 +5,11 @@ namespace EmployeesWageComputation
     {
         static void Main(String[] args)
         {
-            EmployeeDetails.Attendance();
+           // EmployeeDetails.Attendance();
+
+            
+            EmployeeDetails employee = new EmployeeDetails();
+            employee.CalculateWage();
         }
     }
 }
