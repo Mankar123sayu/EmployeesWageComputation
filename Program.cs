@@ -14,7 +14,9 @@ namespace EmployeesWageComputation
             EmployeeDetails employeeDetails = new EmployeeDetails();
            // employeeDetails.CalculatingPartTimeWage();
 
-            employeeDetails.CalculatingPartTimeWageWithSwitch();
+           // employeeDetails.CalculatingPartTimeWageWithSwitch();
+
+            employeeDetails.CalculateWagesForMonth();
         }
     }
 }
