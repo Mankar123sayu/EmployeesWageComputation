@@ -8,8 +8,11 @@ namespace EmployeesWageComputation
            // EmployeeDetails.Attendance();
 
             
-            EmployeeDetails employee = new EmployeeDetails();
-            employee.CalculateWage();
+           // EmployeeDetails employee = new EmployeeDetails();
+           // employee.CalculateWage();
+
+            EmployeeDetails employeeDetails = new EmployeeDetails();
+            employeeDetails.CalculatingPartTimeWage();
         }
     }
 }
