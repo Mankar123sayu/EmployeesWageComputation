@@ -75,7 +75,35 @@ namespace EmployeesWageComputation
             emp_Wage = emp_Hr * WAGE_PER_HR;
             Console.WriteLine($"Employee Wage: {emp_Wage}");
         }
+        public  void CalculatingPartTimeWageWithSwitch()
+        {
+            int emp_Hr = 0;
+            int emp_Wage = 0;
+
+            Random random = new Random();
+            int check = random.Next(3);
+
+            switch (check)
+            {
+                case IS_FULL_TIME:
+                    emp_Hr = 8;
+                    Console.WriteLine("Employee is present and working as full time.");
+                    break;
+                case IS_PART_TIME:
+                    emp_Hr = 4;
+                    Console.WriteLine("Employee is present but working as part time.");
+                    break;
+                default:
+                    emp_Hr = 0;
+                    Console.WriteLine("Employee is Absent.");
+                    break;
+            }
+            emp_Wage = emp_Hr * WAGE_PER_HR;
+            Console.WriteLine($"Employee Wage: {emp_Wage}");
+        }
     }
 }
+    
+
     
 
