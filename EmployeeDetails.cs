@@ -8,6 +8,8 @@ namespace EmployeesWageComputation
 {
     public class EmployeeDetails
     {
+       public const int IS_FULL_TIME = 1;
+       
        public  void CalculateWage()
         {
             int emp_Hr = 0;
