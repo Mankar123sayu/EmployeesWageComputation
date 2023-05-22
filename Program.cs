@@ -8,12 +8,15 @@ namespace EmployeesWageComputation
            // EmployeeDetails.Attendance();
 
             
-           // EmployeeDetails employee = new EmployeeDetails();
-           // employee.CalculateWage();
+            EmployeeDetails employee = new EmployeeDetails();
+            //employee.CalculateWagesForMonth();
 
-            EmployeeDetails employeeDetails = new EmployeeDetails();
+           // EmployeeDetails employeeDetails = new EmployeeDetails();
 
-            employeeDetails.CalculateWageTillCondition();
+           // employee.CalculateWageTillCondition();
+
+            EmployeeDetails.ComputeEmployeeWage();
+
         }
     }
 }
