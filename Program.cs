@@ -8,14 +8,17 @@ namespace EmployeesWageComputation
            // EmployeeDetails.Attendance();
 
             
-            EmployeeDetails employee = new EmployeeDetails();
+            //EmployeeDetails employee = new EmployeeDetails();
             //employee.CalculateWagesForMonth();
 
            // EmployeeDetails employeeDetails = new EmployeeDetails();
 
            // employee.CalculateWageTillCondition();
 
-            EmployeeDetails.ComputeEmployeeWage();
+            //EmployeeDetails.ComputeEmployeeWage();
+
+            MultipleCompany multipleCompany = new MultipleCompany();
+            multipleCompany.ComputeEmployeeWage("Amazon",20,20,160);
 
         }
     }
